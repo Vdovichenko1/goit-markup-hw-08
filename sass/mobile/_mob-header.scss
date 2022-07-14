@@ -1,12 +1,12 @@
 .page-header {
     
     border-bottom: 1px solid $header-border;
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         position: relative;
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
     .nav {
         display: flex;
         align-items: center;
@@ -34,7 +34,7 @@
 }
 
 .nav__menu {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         display: inline-flex;
         margin: 0;
         padding: 0;
@@ -73,7 +73,7 @@
 }
 
 .nav__modal {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         position: absolute;
         display: block;
         top: 0;
@@ -102,7 +102,7 @@
 
 
 .site-nav__link {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         text-decoration: none;
         color: $primary-text-color;
         display: block;
@@ -116,19 +116,19 @@
 }
 
 .site-nav__current {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         color: $secondary-color;
     }
 }
 
 .site-nav__item:not(:last-child) {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         margin-bottom: 32px;
     }
 }
 
 .contacts__link {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         text-decoration: none;
         color: $paragraph-text-color;
         font-weight: 500;
@@ -142,7 +142,7 @@
 }
 
 .nav__social {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         display: inline-flex;
         font-weight: 500;
         font-size: 18px;
@@ -154,7 +154,7 @@
 }
 
 .nav_network--border {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         border: 1px solid rgba(33, 33, 33, 0.2);
         transform: rotate(90deg);
         margin-left: 10px;

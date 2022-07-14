@@ -72,13 +72,13 @@ textarea {
 .page-header {
   border-bottom: 1px solid #ECECEC;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .page-header {
     position: relative;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav {
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ textarea {
   color: #2196F3;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav__menu {
     display: inline-flex;
     margin: 0;
@@ -138,7 +138,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav__modal {
     position: absolute;
     display: block;
@@ -160,7 +160,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .site-nav__link {
     text-decoration: none;
     color: #212121;
@@ -172,19 +172,19 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .site-nav__current {
     color: #2196F3;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .site-nav__item:not(:last-child) {
     margin-bottom: 32px;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .contacts__link {
     text-decoration: none;
     color: #757575;
@@ -198,7 +198,7 @@ textarea {
   color: #2196F3;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav__social {
     display: inline-flex;
     font-weight: 500;
@@ -210,7 +210,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav_network--border {
     border: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
@@ -219,7 +219,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .title {
     padding-top: 118px;
     padding-bottom: 118px;
@@ -230,14 +230,13 @@ textarea {
     background-position: center;
     background-size: cover;
   }
-}
-
-.title__hero {
-  color: #FFFFFF;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  .title__hero {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 }/*# sourceMappingURL=main.css.map */
