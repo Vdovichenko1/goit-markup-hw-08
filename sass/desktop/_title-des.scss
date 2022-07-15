@@ -1,10 +1,13 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .title {
-            padding-top: 118px;
-            padding-bottom: 118px;
-            height: 400px;
-            
+            padding-top: 200px;
+            padding-bottom: 200px;
             background: $foot-title-bg-color;
+    
+            height: 600px;
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
     
             background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
@@ -17,42 +20,18 @@
     
         .title__hero {
             padding-bottom: 30px;
-            width: 360px;
-            margin-right: auto;
+            width: 696px;
             margin-left: auto;
+            margin-right: auto;
     
             color: $title-text-color;
     
             font-weight: 900;
-            font-size: 26px;
-            line-height: 1.61;
+            font-size: 44px;
+            line-height: 1.36;
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
-        }
-                .page-buttons {
-                    border-radius: 4px;
-                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-                    border: $secondary-color;
-                    padding: 10px 32px;
-                    margin-left: auto;
-                    margin-right: auto;
-        
-                    background-color: $secondary-color;
-                    color: $title-text-color;
-        
-                    font-family: inherit;
-                    font-weight: $font-title;
-                    font-size: 16px;
-                    line-height: 1.88;
-                    display: flex;
-                    align-items: center;
-                    text-align: center;
-                    letter-spacing: 0.06em;
-                    cursor: pointer;
-                }
-        .form-data__button {
-            padding: 10px 56px;
         }
         .backdrop {
             position: fixed;
@@ -77,13 +56,15 @@
                 transform: translate(-50%, -50%) scale(0.9);
             }
         }
+    
+    
         .backdrop__modal {
             position: absolute;
             top: 50%;
             left: 50%;
     
-            width: 450px;
-            height: 609px;
+            width: 528px;
+            height: 581px;
     
             background-color: $title-text-color;
     
@@ -130,7 +111,7 @@
         .form-data__head {
             font-weight: $font-title;
             font-size: 20px;
-            line-height: 1.5;
+            line-height: 23px;
             text-align: center;
             letter-spacing: 0.03em;
     
@@ -219,8 +200,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 12px;
-            line-height: 1.16;
+            font-size: 14px;
+            line-height: 1.71;
             color: $paragraph-text-color;
         }
     
@@ -255,4 +236,3 @@
             margin-right: 7px;
         }
 }
-

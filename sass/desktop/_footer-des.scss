@@ -1,8 +1,13 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+    .footer__main {
+            display: flex;
+        }
     
-    .footer__section {
-        padding-top: 60px;
-    }
+        .footer__section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    
         .footer__logo {
             color: $title-text-color;
     
@@ -52,7 +57,11 @@
             letter-spacing: 0.03em;
             padding-top: 20px;
         }
-        
+        .footer-network {
+            margin-left: 70px;
+            padding-top: 72px;
+            padding-bottom: 100px;
+        }
     
     
         .footer-network__title {
@@ -66,7 +75,10 @@
             line-height: 1.14;
             letter-spacing: 0.03em;
         }
-
+    
+        .footer-network__scroll {
+            display: flex;
+        }
     
     
         .footer-network__list {
@@ -99,79 +111,56 @@
                 background-color: $secondary-color;
             }
         }
-}
-
-@media screen and (min-width: 768px) {
-    .footer-newsletter {
-            width: 100%;
-            margin: 0;
-            padding-top: 60px;
-            padding-bottom: 60px;
-    
-            display: block;
-        }
-    
-        .footer-newsletter__title {
-            text-transform: uppercase;
-            color: $title-text-color;
-
-    
-            font-family: inherit;
-            font-weight: $font-title;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.03em;
-        }
-    
-        .footer-newsletter__subscribe {
-            display: block;
-        }
-
-    
-    
-        .footer-newsletter__icon {
-            width: 24px;
-            height: 24px;
-            margin-left: 10px;
-        }
-    
+                .footer-newsletter {
+                    width: 570px;
+                    margin-left: 93px;
+                    padding-top: 72px;
+                    padding-bottom: 94px;
         
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .footer__main {
-            display: flex;
-            flex-wrap: wrap;
-            text-align: center;
-            justify-content: space-evenly;
-        }
-        .footer-network {
-            margin-left: 70px;
-            padding-top: 72px;
-            text-align: center;
-        }
-        .footer-newsletter__title {
-            text-align: center;
-        }
-        .footer-newsletter__btn {
-            display: flex;
-            justify-content: center;
-        }
-        .footer-newsletter__email {
-            width: 450px;
-            height: 50px;
-            margin-right: 12px;
-            padding-left: 15px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-            border-radius: 4px;
-            background-color: $foot-title-bg-color;
-            color: $title-text-color;
-            margin-bottom: 20px;
-            margin-top: 20px;
-    
-            &::placeholder {
-                color: $footer-placeholder;
-            }
-        }
+                    display: flex;
+                    flex-direction: column;
+                }
+        
+                .footer-newsletter__title {
+                    text-transform: uppercase;
+                    color: $title-text-color;
+                    margin-bottom: 20px;
+        
+                    font-family: inherit;
+                    font-weight: $font-title;
+                    font-size: 14px;
+                    line-height: 1.14;
+                    letter-spacing: 0.03em;
+                }
+        
+                .footer-newsletter__subscribe {
+                    display: flex;
+                }
+        
+                .footer-newsletter__email {
+                    width: 358px;
+                    height: 50px;
+                    margin-right: 12px;
+                    padding-left: 15px;
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                    border-radius: 4px;
+                    background-color: $foot-title-bg-color;
+                    color: $title-text-color;
+        
+                    &::placeholder {
+                        color: $footer-placeholder;
+                    }
+                }
+        
+        
+                .footer-newsletter__icon {
+                    width: 24px;
+                    height: 24px;
+                    margin-left: 10px;
+                }
+        
+                .footer-newsletter__btn {
+                    margin: 0;
+                }
 }

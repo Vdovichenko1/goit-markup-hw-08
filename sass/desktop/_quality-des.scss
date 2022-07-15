@@ -1,0 +1,85 @@
+@media screen and (min-width: 1200px) {
+    .quality {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .quality__item {
+            margin-right: 30px;
+            width: 270px;
+    
+            &:nth-child(4n) {
+                margin-right: 0;
+            }
+        }
+    
+    
+        .quality__header {
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 1.14;
+    
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+    
+        .quality__text {
+            color: $paragraph-text-color;
+    
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+        }
+    
+        .quality__icon {
+            height: 120px;
+            width: 270px;
+            background-color: $but--team-color;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            &--size {
+                height: 70px;
+                width: 70px;
+            }
+        }
+}
+
+@media screen and (min-width: 1200px){
+    .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .section--indent {
+            padding-top: 0;
+            padding-bottom: 94px;
+        }
+    
+        .projects__item {
+            position: relative;
+        }
+    
+        .projects__description {
+            position: absolute;
+            width: 370px;
+            height: 70px;
+            bottom: 0;
+    
+            background-color: $project-bg;
+        }
+    
+        .projects__title {
+            padding: 27px 0;
+            font-weight: $font-title;
+            font-size: 14px;
+            line-height: 1.14;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $title-text-color;
+        }
+}

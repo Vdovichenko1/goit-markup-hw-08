@@ -80,10 +80,6 @@
             text-decoration: none;
         }
     
-        .contacts__item:nth-child(1) {
-            margin-bottom: 10px;
-        }
-    
         .contacts__link {
             color: $paragraph-text-color;
             text-decoration: none;
@@ -109,5 +105,11 @@
             .contacts__link:focus & {
                 fill: $secondary-color;
             }
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contacts__item:nth-child(1) {
+            margin-bottom: 10px;
         }
 }
