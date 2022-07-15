@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+    .quality {
+        display: block;
+    }
+    .quality__item {
+        width: 450px;
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .quality__header {
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+    
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .quality__text {
+        color: $paragraph-text-color;
+    
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    
+    .quality__icon {
+        height: 120px;
+        width: 450px;
+        background-color: $but--team-color;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &--size {
+            height: 70px;
+            width: 70px;
+        }
+    }
+    .section.section--indent {
+        display: none;
+    }
+}

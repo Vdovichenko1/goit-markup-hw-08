@@ -64,10 +64,12 @@ textarea {
     text-align: center;
 }
 
-// .section {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-// }
+.section {
+    @media screen and (max-width: 767px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
 
 .hidden {
     display: none;
