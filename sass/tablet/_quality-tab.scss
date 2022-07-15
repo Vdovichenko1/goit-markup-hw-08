@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+    .quality {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+            margin-bottom: 0;
+        }
+    
+        .quality__item {
+            width: calc((100% - 2 * 30px) / 2);
+            margin: 15px;
+
+            &:nth-child(n + 3) {
+                margin-bottom: 0;
+            }
+        }
+        .quality__header {
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 1.14;
+    
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+    
+        .quality__text {
+            color: $paragraph-text-color;
+    
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+        }
+    
+        .quality__icon {
+            height: 120px;
+            width: 100%;
+            background-color: $but--team-color;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            &--size {
+                height: 70px;
+                width: 70px;
+            }
+        }
+        .section.section--indent {
+            display: none;
+        }
+}
