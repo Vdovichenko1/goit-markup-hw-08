@@ -27,7 +27,9 @@
     
     .title__hero {
         color: $title-text-color;
-
+        width: 360px;
+        margin-right: auto;
+        margin-left: auto;
         font-weight: 900;
         font-size: 26px;
         line-height: 1.61;
