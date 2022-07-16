@@ -2,17 +2,27 @@
     .title {
             padding-top: 118px;
             padding-bottom: 118px;
-            height: 400px;
             
             background: $foot-title-bg-color;
     
             background-image: linear-gradient(to right,
-                    rgba(47, 48, 58, 0.4),
-                    rgba(47, 48, 58, 0.4)),
-                url(../../images/fon-hed.jpg);
+                        rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url(../../images/tab-header.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            @media (min-device-pixel-ratio: 2),
+                (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .title {
+                        background-image: linear-gradient(to right,
+                                rgba(47, 48, 58, 0.4),
+                                rgba(47, 48, 58, 0.4)),
+                            url(../../images/tab-header2x.jpg);
+                    }
+                }
         }
     
         .title__hero {

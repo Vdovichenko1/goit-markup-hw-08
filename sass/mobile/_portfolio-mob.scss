@@ -114,6 +114,7 @@
         .portfolio-example__animation {
             position: relative;
             overflow: hidden;
+            z-index: -1;
         }
     
         .portfolio-example__list:hover .portfolio-example__description {
