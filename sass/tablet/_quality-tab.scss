@@ -1,10 +1,5 @@
 @media screen and (min-width: 768px) {
-    .quality {
-            display: flex;
-            flex-wrap: wrap;
-            margin: -15px;
-            margin-bottom: 0;
-        }
+    
     
         .quality__header {
             text-transform: uppercase;
@@ -41,6 +36,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .quality {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+            margin-bottom: 0;
+        }
     .quality__item {
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;

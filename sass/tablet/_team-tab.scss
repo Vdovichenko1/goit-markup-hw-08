@@ -4,12 +4,7 @@
         padding-bottom: 60px;
         padding-top: 60px;
     }
-        .team {
-            display: flex;
-            flex-wrap: wrap;
-            margin: -15px;
-            margin-bottom: 0;
-        }
+        
     
         .team__position {
             color: $paragraph-text-color;
@@ -74,6 +69,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .team {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+            margin-bottom: 0;
+        }
     .team__list {
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;
