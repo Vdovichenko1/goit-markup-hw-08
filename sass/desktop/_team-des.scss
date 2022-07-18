@@ -1,6 +1,5 @@
 @media screen and (min-width: 1200px) {
     .section__team {
-            background-color: $but--team-color;
             padding-bottom: 94px;
             padding-top: 94px;
         }
@@ -22,66 +21,5 @@
         .team__list img {
             width: 270px;
             height: 260px;
-        }
-    
-        .team__position {
-            color: $paragraph-text-color;
-    
-            font-size: 16px;
-            line-height: 1.18;
-    
-            margin-bottom: 16px;
-        }
-    
-        .team__name {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.18;
-    
-            margin-bottom: 10px;
-        }
-    
-        .team__block {
-            text-align: center;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            background-color: $title-text-color;
-        }
-    
-        .network {
-            text-decoration: none;
-            display: inline-block;
-            margin-right: 10px;
-    
-            &:nth-child(4) {
-                margin-right: 0;
-            }
-        }
-    
-    
-        .network__icon {
-            width: 20px;
-            height: 20px;
-        }
-    
-        .network__link {
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            fill: $network-icon-color;
-    
-            transition-property: fill background-color border-radius;
-            transition-duration: 250ms;
-            transition-timing-function: $timing-function;
-    
-            &:hover,
-            &:focus {
-                fill: $title-text-color;
-                background-color: $secondary-color;
-                border-radius: 50%;
-            }
         }
 }

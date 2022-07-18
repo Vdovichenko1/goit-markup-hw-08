@@ -7,19 +7,9 @@
             flex-wrap: wrap;
         }
     
-        .portfolio-example__text {
-            color: $paragraph-text-color;
-    
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.71;
-        }
     
         .portfolio-example__name {
             font-size: 18px;
-            line-height: 2;
-            letter-spacing: 0.06em;
-            margin-bottom: 4px;
         }
     
         .portfolio-example__list {
@@ -46,40 +36,5 @@
     
         .portfolio-example__gallery {
             display: block;
-        }
-    
-        .portfolio-example__label {
-            padding: 20px 24px;
-            border: 1px solid $portfolio-label;
-            border-top: none;
-        }
-        .portfolio-example__description {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-    
-            background-color: $description-bg;
-    
-            font-size: 18px;
-            line-height: 1.56;
-            letter-spacing: 0.03em;
-            color: $title-text-color;
-    
-            padding: 63px 24px;
-    
-            transform: translateY(100%);
-    
-            transition: transform 250ms $timing-function;
-        }
-    
-        .portfolio-example__animation {
-            position: relative;
-            overflow: hidden;
-        }
-    
-        .portfolio-example__list:hover .portfolio-example__description {
-            transform: translateY(0);
         }
 }

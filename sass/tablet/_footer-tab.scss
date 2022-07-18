@@ -102,14 +102,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .footer-newsletter {
-            width: 100%;
-            margin: 0;
-            padding-top: 60px;
-            padding-bottom: 60px;
-    
-            display: block;
-        }
+
     
         .footer-newsletter__title {
             text-transform: uppercase;
@@ -178,4 +171,12 @@
                 color: $footer-placeholder;
             }
         }
+                .footer-newsletter {
+                    width: 100%;
+                    margin: 0;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+        
+                    display: block;
+                }
 }

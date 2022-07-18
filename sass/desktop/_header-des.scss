@@ -1,89 +1,6 @@
 @media screen and (min-width: 1200px) {
-        .nav {
-            display: flex;
-            align-items: center;
-        }
-    
-        .nav__logo {
-            color: $logo-color;
-    
-            font-family: Raleway, sans-serif;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.2;
-            text-decoration: none;
-    
-            &--color {
-                color: $secondary-color;
-            }
-        }
-}
-
-@media screen and (min-width: 1200px) {
-    .site-nav {
-            display: flex;
-            margin-left: 93px;
-        }
-    
-        .site-nav__item+.site-nav__item {
-            margin-left: 50px;
-        }
-    
-        .site-nav__link {
-            position: relative;
-            display: block;
-            padding-top: 32px;
-            padding-bottom: 32px;
-    
-            color: $primary-text-color;
-    
-            font-family: inherit;
-            font-weight: 500;
-            letter-spacing: 0.02em;
-            text-decoration: none;
-    
-            transition-property: color 250ms $timing-function;
-    
-            &:hover,
-            &:focus {
-                color: $secondary-color;
-            }
-    
-            &.site-nav__current::after {
-                opacity: 1;
-            }
-    
-            &::after {
-                position: absolute;
-                content: '';
-                display: block;
-                height: 4px;
-                width: 100%;
-                bottom: 0;
-                background-color: $secondary-color;
-                border-radius: 2px;
-                opacity: 0;
-                transition: opacity 250ms $timing-function;
-                bottom: -2px;
-            }
-    
-            &:hover::after,
-            &:focus::after {
-                opacity: 1;
-            }
-        }
-    
-        .site-nav__current {
-            color: $secondary-color;
-        }
                 .contacts {
                     display: flex;
-                    margin-left: auto;
-        
-                    font-family: inherit;
-                    font-weight: 500;
-                    letter-spacing: 0.02em;
-                    text-decoration: none;
                 }
         
                 .contacts__item+.contacts__item {
@@ -91,32 +8,8 @@
                 }
         
                 .contacts__link {
-                    color: $paragraph-text-color;
-                    text-decoration: none;
                     padding-top: 32px;
                     padding-bottom: 32px;
-                    display: flex;
-                    align-items: center;
-        
-                    transition-property: color fill;
-                    transition-duration: 250ms;
-                    transition-timing-function: var(--timing-function);
-        
-                    &:hover,
-                    &:focus {
-                        color: $secondary-color;
-                    }
-                }
-        
-                .contacts__icon {
-                    transition-property: fill 250ms $timing-function;
-                    margin-right: 10px;
-                    fill: #757575;
-        
-                    .contacts__link:hover &,
-                    .contacts__link:focus & {
-                        fill: $secondary-color;
-                    }
                 }
         .nav__menu,
         .nav__modal {
